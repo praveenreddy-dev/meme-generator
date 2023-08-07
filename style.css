@@ -1,7 +1,9 @@
-body{
+body {
     text-align: center;
-}
-#btn{
+    background-color: rgba(255, 255, 0, 0.531);
+  }
+  
+  #btn {
     padding: 10px 8px;
     background-color: black;
     color: white;
@@ -9,16 +11,40 @@ body{
     outline: none;
     margin: 50px auto 0px;
     cursor: pointer;
-}
-img{
-  height: 500px;
-  object-fit: cover;
-}
-#author{
+    border-radius: 10px;
+  }
+  
+  #btn:hover {
+    color: yellow;
+  }
+  
+  img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  #author {
     margin: 8px;
-}
-#subreddit{
-    padding: 5px 20px;
+  }
+  
+  #subreddit {
+    padding: 8px 20px;
     text-align: left;
     background-color: lightgray;
-}
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    #subreddit {
+      width: 100%;
+    }
+  }
+  
