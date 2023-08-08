@@ -16,8 +16,6 @@ To use this meme generator, follow the steps below:
 
 4. Click the "Generate Meme" button to fetch a random meme from the specified subreddit.
 
-> **Note**: The first API response might be slow due to network latency. If you don't see a meme immediately after clicking the "Generate Meme" button, try clicking it again. Subsequent meme requests should load faster.
-
 ## Acknowledgment
 
 This project utilizes the [Meme_Api](https://github.com/D3vd/Meme_Api) by [D3vd](https://github.com/D3vd). Special thanks to D3vd for providing the API that powers this meme generator.
