@@ -20,7 +20,7 @@ function generateMeme() {
 }
 
 function showData(subreddit) {
-    memeBtn.addEventListener('click', () => {
+  
         let memeUrl = `https://meme-api.com/gimme/${subreddit}`;
 
         fetch(memeUrl)
@@ -37,5 +37,6 @@ function showData(subreddit) {
             const profileDiv = document.getElementById('meme-generator');
             profileDiv.innerHTML = `<p>Error: ${error.message}</p>`;
         });
-    });
+    
 }
+memeBtn.addEventListener('click', generateMeme);
